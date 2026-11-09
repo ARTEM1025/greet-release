@@ -5,6 +5,12 @@
 
 ## [Unreleased]
 
+### Added
+- greet(): punctuation 인수를 추가해 기존 느낌표 고정에서 원하는 문장 부호를 지정할 수 있도록 개선
+
+### Fixed
+- greet(): 공백만 있거나 빈 이름 입력 시 기존 'Hello, !'를 반환하던 문제를 'Hello, world!'를 사용하도록 수정
+
 ## [0.1.0] - 2026-11-09
 
 ### Added
